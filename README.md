@@ -94,11 +94,11 @@ cd 到 aws_iot_demo的目录下运行`make flash` 。
 回到MSYS2命令窗口，会收到一个message为Hello from AWS IoT console.
 ![pc5](images/sdk-esp-idf-aws-iot-connection14.png)  
 ### 7. AWS GreenGrass结合  
-  #### 7.1 在 AWS IoT Core 控制台中，依次选择 Greengrass、组，然后选择您的组。
+  #### 7.1 在 AWS IoT Core 控制台中，依次选择 Greengrass、组，然后选择您的组。  
   #### 7.2 在组配置页面中，选择设备，然后选择添加设备。  
-  #### 7.3 选择 Select an IoT Thing。选择之前创建的Thing并完成添加。
+  #### 7.3 选择 Select an IoT Thing。选择之前创建的Thing并完成添加。  
   #### 7.4 之后的内容请参考[AWS IOT LAB by Xilinx](https://github.com/xupsh/PYNQ_GreenGrass)完成GreenGrass结合。  
-  **请注意作为device的thing其证书仍然用创建Thing时所下载的证书即可*  
+  **请注意作为device的thing其证书仍然用创建Thing时所下载的证书即可**  
 ## 参考文献  
 [通过乐鑫原生 SDK-ESP IDF 连接 AWS IoT 平台](https://aws.amazon.com/cn/blogs/china/sdk-esp-idf-aws-iot-connection/)  
 [AWS IOT LAB by Xilinx](https://github.com/xupsh/PYNQ_GreenGrass)
